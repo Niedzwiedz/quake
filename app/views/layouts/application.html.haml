@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    %title Quake
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true 
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true 
+    = csrf_meta_tags 
+  %body
+    #page-wrap
+      #menu
+        = image_tag('face.jpg', size:"65x65", class:"circular")
+        #button-holder
+          = link_to 'Share image!', new_image_path,{class: 'add-image-button', remote: true}
+      #form-wrap{:style=>"display:none;"}
+        #image-form
+      = yield

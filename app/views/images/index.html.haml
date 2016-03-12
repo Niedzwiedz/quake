@@ -1,0 +1,11 @@
+#form-wrap{:style=>"display:none;"}
+  #image-form
+#image-wrap
+  - @images.each do |image|
+    = link_to image_path(image) do
+      .image-instance
+        %h4.image-title= image.title
+        %div
+        = image_tag(image.file_url, width:"475")
+  %div
+  = will_paginate @images

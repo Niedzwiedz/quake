@@ -1,0 +1,9 @@
+<%= form_for @image, remote: true, :authenticity_token => true do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <div id="file_field_wrap">
+    <%= f.file_field :file %>
+  </div>
+
+  <%= f.submit %>
+<% end %>

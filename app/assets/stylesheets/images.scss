@@ -1,3 +1,85 @@
 // Place all the styles related to the images controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.image-title {
+     color: rgb(190,190,190);
+     }
+#image-wrap {
+     text-align: center;
+     margin: 0 auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     background-color: rgba(0,0,0,0.5);
+     }
+.image-instance {
+     text-align: left;
+     width: 475px;
+     margin: 0 auto;
+     padding-bottom: 40px;
+     }
+#menu {
+     width: 499px;
+     height: 200px;
+     border: 1px rgba(190,190,190,0.2) solid; 
+     color: rgb(190,190,190);
+     background-color: rgba(0,0,0,0.5);
+     margin-top: 20px;
+     }
+.add-image-button {
+     background-color: rgba(190,190,190,0.1);
+     color: rgba(255,255,255,0.6);
+     margin-top: 20px;
+     text-decoration: none;
+     padding: 5px 10px 5px 10px;
+     border: 1px rgba(190,190,190,0.2) solid;
+}
+.add-image-button:hover {
+    text-decoration: none;
+     color: rgba(255,255,255,0.8);
+     background-color: rgba(190,190,190,0.2);
+     border: 1px rgba(190,190,190,0.4) solid;
+     }
+.add-image-button:link {
+    text-decoration: none;
+    }
+.add-image-button:visited {
+    text-decoration: none;
+    }
+.add-image-button:active {
+    text-decoration: none;
+    }
+     
+#button-holder {
+     margin-top: 30px;
+     }
+      
+.circular {
+  margin-top: 30px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	}
+
+#image-form {
+     margin-top: 20px;
+     text-align: center;
+     }
+#form-wrap {
+     margin-top: 20px;
+     background-color: rgba(0,0,0,0.6);
+     color: rgb(190,190,190);
+     width: 499px;
+     padding-top:20px;
+     padding-bottom:20px;
+     }
+#file_field_wrap {
+     margin-left: 140px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     }
+     
+     
+                
